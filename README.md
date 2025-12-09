@@ -50,12 +50,14 @@ See the `examples/` directory:
 
 - `kitchen_sink.py` - general API usage
 - `list_latest_transcripts.py` - list recent earnings calls
+- `list_ipos.py` - list active IPO roadshows and latest SEC registration filings
 - `fetch_skyt_transcript.py` - fetch and parse a full earnings call transcript
 - `fetch_recent_transcripts.py` - fetch all transcripts from the last 24 hours and save to files
 
 ```bash
 uv run examples/kitchen_sink.py
 uv run examples/list_latest_transcripts.py
+uv run examples/list_ipos.py
 uv run examples/fetch_skyt_transcript.py
 uv run examples/fetch_recent_transcripts.py
 ```
